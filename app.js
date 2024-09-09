@@ -132,16 +132,25 @@
 // }
 // tiempoRestanteExamen();
 
-
-function tabla(a,x) {
-    let resultado;
-    for(let i=0; i<=x; i++) {
-        resultado = i * a;
+// function tabla(a,x) {
+//     let resultado;
+//     for(let i=0; i<=x; i++) {
+//         resultado = i * a;
         
-        if(i!==5) {
-            console.log(`${i} X ${a} = ${resultado}`)
-        }
-    }
+//         if(i!==5) {
+//             console.log(`${i} X ${a} = ${resultado}`)
+//         }
+//     }
     
+// }
+// tabla(2,10);
+
+function azar() {
+    let numAleatorio = Math.floor(Math.random()* 10)+1;
+    console.log(numAleatorio);
+    console.log(numAleatorio*2);
+    console.log(numAleatorio/2);
+    let raiz = Math.sqrt(numAleatorio);
+    console.log(raiz);
 }
-tabla(2,10);
+azar();
